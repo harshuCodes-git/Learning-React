@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form id="registrationForm"> Name: <input type="text" id="name"><br> Address: <textarea id="address"></textarea><br>
+        Gender: <input type="radio" name="gender" value="Male"> Male <input type="radio" name="gender" value="Female">
+        Female<br> Subjects: <input type="checkbox" value="Maths"> Maths <input type="checkbox" value="Science">
+        Science<br> Course: <select id="course">
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+        </select><br> <button type="button" onclick="validateForm()">Submit</button> </form>
+    <p id="errorMessage"></p>
+    <script> function validateForm() { var name = document.getElementById("name").value; if (name == "") { document.getElementById("errorMessage").innerText = "Name is required"; return false; } // Add further validation as needed document.getElementById("errorMessage").innerText = "Form submitted successfully"; } </script>
+</body>
+
+</html>

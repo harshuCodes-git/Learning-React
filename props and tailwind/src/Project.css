@@ -1,0 +1,56 @@
+.MainBox {
+    border-color: aliceblue;
+    background-color: aqua;
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 15%;
+    height: auto !important;
+}
+
+.Input-Box {
+    width: 35%;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.Rangebox {
+    width: 10%;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    /* margin-top: 10%; */
+    margin-left: 25%;
+}
+
+.Checkbox {
+    margin-left: 25%;
+    width: 10%;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    /* margin-top: 10%; */
+    
+}.Copy-btn{
+    width: 10%;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-top: 10%;
+    margin-left: 25%;
+    float: right;
+}

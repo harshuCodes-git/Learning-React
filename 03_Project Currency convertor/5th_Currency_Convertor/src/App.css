@@ -1,0 +1,33 @@
+.Main-Page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e70404;
+    width: 100%;
+}
+
+.background-img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(1px);
+}
+
+.Main-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 10%;
+    background-color: #e70404;
+}
+.Header-css{
+  background-color: #e70404;
+}
+
+
